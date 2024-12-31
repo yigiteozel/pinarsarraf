@@ -14,13 +14,13 @@ for attribute in dir(SendSms):
 while 1:
     system("cls||clear")
     print("""{}
-     PINAR SARRAFA ÖZEL TASARLANMIŞTIR.
+     YİĞİT AKGÜNLÜYE AİTTİR.
      KODLAMASI DEĞİŞTİRİLEMEZ.
     
-    Sms: {}           {}by {}@p1narss0\n  
+    Sms: {}           {}by {}@yigitakgnl1\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
-        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçimini yap pınar hanım: "))
+        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçimini yap yigit: "))
         if menu == "":
             continue
         menu = int(menu) 
